@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E4516F2DF6E8C700494413 /* GodotFirebaseRemoteConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E4516B2DF6E87A00494413 /* GodotFirebaseRemoteConfig.mm */; };
+		99E451702DF6E8C900494413 /* GodotFirebaseRemoteConfigImplementation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E4516D2DF6E87A00494413 /* GodotFirebaseRemoteConfigImplementation.mm */; };
+		99E451712DF6E8F100494413 /* GodotFirebaseRemoteConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 99E4516A2DF6E87A00494413 /* GodotFirebaseRemoteConfig.h */; };
+		99E451722DF6E8F300494413 /* GodotFirebaseRemoteConfigImplementation.h in Sources */ = {isa = PBXBuildFile; fileRef = 99E4516C2DF6E87A00494413 /* GodotFirebaseRemoteConfigImplementation.h */; };
+		A0ED71D75FCD7D425A1D30E9 /* Pods_GodotFirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73529EF97255CD7C2FAFBE93 /* Pods_GodotFirebaseRemoteConfig.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E6C05F428AB989A00B91EE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E6C05F628AB989A00B91EE0 /* libGodotFirebaseRemoteConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGodotFirebaseRemoteConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73529EF97255CD7C2FAFBE93 /* Pods_GodotFirebaseRemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GodotFirebaseRemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE60E2BF2205C552417533C /* Pods-GodotFirebaseRemoteConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodotFirebaseRemoteConfig.release.xcconfig"; path = "Target Support Files/Pods-GodotFirebaseRemoteConfig/Pods-GodotFirebaseRemoteConfig.release.xcconfig"; sourceTree = "<group>"; };
+		99E4516A2DF6E87A00494413 /* GodotFirebaseRemoteConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodotFirebaseRemoteConfig.h; sourceTree = "<group>"; };
+		99E4516B2DF6E87A00494413 /* GodotFirebaseRemoteConfig.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GodotFirebaseRemoteConfig.mm; sourceTree = "<group>"; };
+		99E4516C2DF6E87A00494413 /* GodotFirebaseRemoteConfigImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodotFirebaseRemoteConfigImplementation.h; sourceTree = "<group>"; };
+		99E4516D2DF6E87A00494413 /* GodotFirebaseRemoteConfigImplementation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GodotFirebaseRemoteConfigImplementation.mm; sourceTree = "<group>"; };
+		A57D892C807AB095C50A2F0D /* Pods-GodotFirebaseRemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodotFirebaseRemoteConfig.debug.xcconfig"; path = "Target Support Files/Pods-GodotFirebaseRemoteConfig/Pods-GodotFirebaseRemoteConfig.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6C05F328AB989A00B91EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ED71D75FCD7D425A1D30E9 /* Pods_GodotFirebaseRemoteConfig.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1803408D819B83B879635E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A57D892C807AB095C50A2F0D /* Pods-GodotFirebaseRemoteConfig.debug.xcconfig */,
+				7AE60E2BF2205C552417533C /* Pods-GodotFirebaseRemoteConfig.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E6C05ED28AB989A00B91EE0 = {
+			isa = PBXGroup;
+			children = (
+				99E4516E2DF6E87A00494413 /* GodotFirebaseRemoteConfig */,
+				6E6C05F728AB989A00B91EE0 /* Products */,
+				1803408D819B83B879635E71 /* Pods */,
+				7675D543110366AA8A77A073 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6C05F728AB989A00B91EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6C05F628AB989A00B91EE0 /* libGodotFirebaseRemoteConfig.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7675D543110366AA8A77A073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73529EF97255CD7C2FAFBE93 /* Pods_GodotFirebaseRemoteConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99E4516E2DF6E87A00494413 /* GodotFirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				99E4516A2DF6E87A00494413 /* GodotFirebaseRemoteConfig.h */,
+				99E4516B2DF6E87A00494413 /* GodotFirebaseRemoteConfig.mm */,
+				99E4516C2DF6E87A00494413 /* GodotFirebaseRemoteConfigImplementation.h */,
+				99E4516D2DF6E87A00494413 /* GodotFirebaseRemoteConfigImplementation.mm */,
+			);
+			path = GodotFirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6C05F528AB989A00B91EE0 /* GodotFirebaseRemoteConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6C05FF28AB989A00B91EE0 /* Build configuration list for PBXNativeTarget "GodotFirebaseRemoteConfig" */;
+			buildPhases = (
+				23D1264AD49A48231495478E /* [CP] Check Pods Manifest.lock */,
+				6E6C05F228AB989A00B91EE0 /* Sources */,
+				6E6C05F328AB989A00B91EE0 /* Frameworks */,
+				6E6C05F428AB989A00B91EE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodotFirebaseRemoteConfig;
+			productName = GodotFirebaseRemoteConfig;
+			productReference = 6E6C05F628AB989A00B91EE0 /* libGodotFirebaseRemoteConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6C05EE28AB989A00B91EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6E6C05F528AB989A00B91EE0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E6C05F128AB989A00B91EE0 /* Build configuration list for PBXProject "GodotFirebaseRemoteConfig" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6C05ED28AB989A00B91EE0;
+			productRefGroup = 6E6C05F728AB989A00B91EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6C05F528AB989A00B91EE0 /* GodotFirebaseRemoteConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23D1264AD49A48231495478E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GodotFirebaseRemoteConfig-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6C05F228AB989A00B91EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E451722DF6E8F300494413 /* GodotFirebaseRemoteConfigImplementation.h in Sources */,
+				99E451712DF6E8F100494413 /* GodotFirebaseRemoteConfig.h in Sources */,
+				99E451702DF6E8C900494413 /* GodotFirebaseRemoteConfigImplementation.mm in Sources */,
+				99E4516F2DF6E8C700494413 /* GodotFirebaseRemoteConfig.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E6C05FD28AB989A00B91EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../godot";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E6C05FE28AB989A00B91EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../godot";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6C060028AB989A00B91EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57D892C807AB095C50A2F0D /* Pods-GodotFirebaseRemoteConfig.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5F6N9ECLU;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6C060128AB989A00B91EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE60E2BF2205C552417533C /* Pods-GodotFirebaseRemoteConfig.release.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5F6N9ECLU;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6C05F128AB989A00B91EE0 /* Build configuration list for PBXProject "GodotFirebaseRemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6C05FD28AB989A00B91EE0 /* Debug */,
+				6E6C05FE28AB989A00B91EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6C05FF28AB989A00B91EE0 /* Build configuration list for PBXNativeTarget "GodotFirebaseRemoteConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6C060028AB989A00B91EE0 /* Debug */,
+				6E6C060128AB989A00B91EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6C05EE28AB989A00B91EE0 /* Project object */;
+}
